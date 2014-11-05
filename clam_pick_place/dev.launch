@@ -1,0 +1,15 @@
+<!-- -*- mode: XML -*- -->
+<launch>
+  <!-- Low level stuff -->
+  <include file="$(find clam_bringup)/launch/lowlevel_simulator.launch" />
+
+  <!-- MoveIt -->
+  <include file="$(find clam_moveit_config)/launch/move_group.launch" />
+
+  <!-- Rviz -->
+  <include file="$(find clam_block_manipulation)/launch/rviz.launch" />
+
+  <!-- Block Manipulation Logic Demo -->
+  <include file="$(find clam_block_manipulation)/launch/manipulation_logic.launch" />
+
+</launch>

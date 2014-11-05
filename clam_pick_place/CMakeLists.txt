@@ -46,3 +46,4 @@ target_link_libraries(block_pick_place ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 add_executable(random_planning src/random_planning.cpp)
 target_link_libraries(random_planning ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 add_dependencies(random_planning clam_msgs_gencpp ${PROJECT_NAME}_gencfg) # wait for msgs to be built
+
