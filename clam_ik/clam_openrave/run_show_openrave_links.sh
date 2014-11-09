@@ -1,1 +1,0 @@
-/usr/bin/openrave-robot.py clam.robot.xml --info links 

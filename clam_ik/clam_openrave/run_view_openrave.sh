@@ -1,1 +1,0 @@
-openrave clam.robot.xml
