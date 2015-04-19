@@ -6,7 +6,7 @@ Dave Coleman <dav.ee>
 ### Contributors
 
 Dylan Vaughn
-Nathan Bellow
+Nathan Bellowe
 
 ## License
 
